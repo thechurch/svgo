@@ -27,7 +27,7 @@ plugins:
   - removeUnknownsAndDefaults
   - removeNonInheritableGroupAttrs
   - removeUselessStrokeAndFill
-  - removeViewBox
+  - removeViewBox: false
   - cleanupEnableBackground
   - removeHiddenElems
   - removeEmptyText
@@ -43,3 +43,4 @@ plugins:
   - removeUnusedNS
   - transformsWithOnePath
   - sortAttrs
+  - removeHeightWidth
