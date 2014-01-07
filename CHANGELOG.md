@@ -1,3 +1,18 @@
+### [ [>](https://github.com/svg/svgo/tree/v0.4.3) ] 0.4.3 / 02.01.2014
+* new plugin [plugins/convertShapeToPath](https://github.com/svg/svgo/blob/master/plugins/convertShapeToPath.js) (close [#96](https://github.com/svg/svgo/issues/96))
+* update sax version to fix [#140](https://github.com/svg/svgo/issues/140)
+* update deps
+
+### [ [>](https://github.com/svg/svgo/tree/v0.4.2) ] 0.4.2 / 19.12.2013
+* add `lcov.info` to npmignore
+* fix `js-yaml` version to suppress deprecation warning in stdout
+
+### [ [>](https://github.com/svg/svgo/tree/v0.4.1) ] 0.4.1 / 18.11.2013
+* node >=0.8.0
+
+### [ [>](https://github.com/svg/svgo/tree/v0.4.0) ] 0.4.0 / 18.11.2013
+* merge almost all pull-requests
+* update dependencies
 
 ### [ [>](https://github.com/svg/svgo/tree/v0.3.7) ] 0.3.7 / 24.06.2013
 * do not remove `result` attribute from filter primitives (fix [#122](https://github.com/svg/svgo/issues/122))
@@ -167,9 +182,9 @@
 * add [./docs/](https://github.com/svg/svgo/tree/master/docs)
 * plugins/convertPathData: don't remove first `M` even if it's `0,0`
 * plugins/convertPathData: stronger defense from infinite loop
-* plugins/moveElemsAttrsToGroup: should affect only inheritable attributes (fix [#46](https://github.com/svg/svgo/issues/46))* 
+* plugins/moveElemsAttrsToGroup: should affect only inheritable attributes (fix [#46](https://github.com/svg/svgo/issues/46))*
 * plugins/removeComments: ignore comments which starts with '!' (close [#43](https://github.com/svg/svgo/issues/43))
-* config: `cleanupAttrs` should be before `convertStyleToAttrs` (fix [#44](https://github.com/svg/svgo/issues/44))* 
+* config: `cleanupAttrs` should be before `convertStyleToAttrs` (fix [#44](https://github.com/svg/svgo/issues/44))*
 * lib/svgo/jsAPI: add `eachAttr()` optional context param
 * temporarily remove PhantomJS and `--test` (close [#38](https://github.com/svg/svgo/issues/38))
 * q@0.8.10 compatibility: 'end is deprecated, use done instead' fix
